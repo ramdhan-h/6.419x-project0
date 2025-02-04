@@ -1,0 +1,17 @@
+{
+  "files.exclude": {
+    "**/.venv": true
+  },
+  "files.watcherExclude": {
+    "**/.venv": true
+  },
+  "search.exclude": {
+    "**/.venv": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true
+  },
+  "autopep8.args": ["--max-line-length", "88"],
+  "flake8.args": ["--config=", "lib/python/.flake8"]
+}
